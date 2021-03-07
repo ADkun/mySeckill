@@ -16,12 +16,13 @@
 
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.adkun.mySeckill.dao" targetProject="src/main/java"/>
 
-        <!--
         <table tableName="item" domainObjectName="Item"
                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
             <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
             <columnOverride column="price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
         </table>
+        <!--
+
         <table tableName="item_stock" domainObjectName="ItemStock"
                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
             <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
