@@ -8,13 +8,13 @@
                         connectionURL="jdbc:mysql://106.12.128.216:3306/seckill?characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=Hongkong"
                         userId="root" password="Adkdaggsql5"/>
 
-        <javaModelGenerator targetPackage="com.adkun.mySeckill.entity" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.adkun.seckill.entity" targetProject="src/main/java">
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
 
         <sqlMapGenerator targetPackage="mappers" targetProject="src/main/resources"/>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.adkun.mySeckill.dao" targetProject="src/main/java"/>
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.adkun.seckill.dao" targetProject="src/main/java"/>
 
         <table tableName="item" domainObjectName="Item"
                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
