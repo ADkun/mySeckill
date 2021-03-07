@@ -21,7 +21,6 @@
             <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
             <columnOverride column="price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
         </table>
-        <!--
 
         <table tableName="item_stock" domainObjectName="ItemStock"
                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
@@ -47,7 +46,6 @@
         <table tableName="serial_number" domainObjectName="SerialNumber"
                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
         </table>
-        -->
 
     </context>
 </generatorConfiguration>

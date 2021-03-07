@@ -1,5 +1,8 @@
 package com.adkun.mySeckill.entity;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 public class Item {
@@ -31,6 +34,7 @@ public class Item {
      *
      * @mbg.generated Sun Mar 07 21:18:33 CST 2021
      */
+    @NotBlank(message = "商品标题不能为空！")
     private String title;
 
     /**
@@ -40,6 +44,8 @@ public class Item {
      *
      * @mbg.generated Sun Mar 07 21:18:33 CST 2021
      */
+    @NotNull(message = "商品价格不能为空！")
+    @Min(value = 0, message = "商品价格不能小于0！")
     private BigDecimal price;
 
     /**
@@ -58,6 +64,7 @@ public class Item {
      *
      * @mbg.generated Sun Mar 07 21:18:33 CST 2021
      */
+    @NotBlank(message = "商品主图不能为空！")
     private String imageUrl;
 
     /**
@@ -67,6 +74,7 @@ public class Item {
      *
      * @mbg.generated Sun Mar 07 21:18:33 CST 2021
      */
+    @NotBlank(message = "商品描述不能为空！")
     private String description;
 
     /**
@@ -77,6 +85,7 @@ public class Item {
      *
      * @mbg.generated Sun Mar 07 21:18:33 CST 2021
      */
+
     public Integer getId() {
         return id;
     }
