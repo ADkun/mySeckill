@@ -43,4 +43,11 @@ public interface UserMapper {
      * @mbg.generated Sun Mar 07 22:26:42 CST 2021
      */
     int updateByPrimaryKey(User record);
+
+    /**
+     * 根据手机号查询用户
+     * @param phone
+     * @return
+     */
+    User selectByPhone(String phone);
 }

@@ -70,4 +70,9 @@
     select id, phone, password, nickname, gender, age
     from user_info
   </select>
+  <select id="selectByPhone" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select id, phone, password, nikename, gender, age
+    from user_info
+    where phone = #{phone,jdbcType=VARCHAR}
+  </select>
 </mapper>
