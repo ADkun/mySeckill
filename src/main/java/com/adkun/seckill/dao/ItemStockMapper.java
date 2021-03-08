@@ -46,4 +46,21 @@ public interface ItemStockMapper {
      * @mbg.generated Sun Mar 07 22:26:42 CST 2021
      */
     int updateByPrimaryKey(ItemStock record);
+
+    /**
+     * 根据商品id查商品库存
+     *
+     * @param itemId
+     * @return
+     */
+    ItemStock selectByItemId(Integer itemId);
+
+    /**
+     * 扣减库存
+     *
+     * @param itemId
+     * @param amount
+     * @return
+     */
+    int decreaseStock(Integer itemId, Integer amount);
 }

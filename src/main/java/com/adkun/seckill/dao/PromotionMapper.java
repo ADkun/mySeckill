@@ -46,4 +46,11 @@ public interface PromotionMapper {
      * @mbg.generated Sun Mar 07 22:26:42 CST 2021
      */
     int updateByPrimaryKey(Promotion record);
+
+    /**
+     * 根据商品id查询活动
+     * @param itemId
+     * @return
+     */
+    Promotion selectByItemId(Integer itemId);
 }

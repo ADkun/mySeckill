@@ -62,4 +62,17 @@
     select id, item_id, stock
     from item_stock
   </select>
+
+  <select id="selectByItemId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id, item_id, stock
+    from item_stock
+    where item_id = #{itemId,jdbcType=INTEGER}
+  </select>
+
+  <update id="decreaseStock">
+    update item_stock
+    set stock = stock - #{amount,jdbcType=INTEGER}
+    where item_id = #{itemId,jdbcType=INTEGER}
+    and stock >= #{amount,jdbcType=INTEGER}
+  </update>
 </mapper>

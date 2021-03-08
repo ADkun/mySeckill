@@ -25,8 +25,6 @@ e
 5src/main/java/com/adkun/seckill/entity/ItemStock.java,b\c\bcb4dfa818dc55039f494b8db7c899a013184401
 h
 8src/main/java/com/adkun/seckill/dao/ItemStockMapper.java,f\e\fe333fce4af31a6845906b1a182725ee7ae9f29f
-^
-.src/main/resources/mappers/ItemStockMapper.xml,3\3\33b4e22af240bbf216e33c0bd30dfbc05e91a757
 Z
 *target/classes/mappers/ItemStockMapper.xml,5\3\5353a20769a749ba1c212fb430def854cbfb3ef9
 U
@@ -51,8 +49,6 @@ e
 5src/main/java/com/adkun/seckill/entity/Promotion.java,b\f\bf6f92ca2de358024f7cc8b26ddd6c5bb6bea07f
 h
 8src/main/java/com/adkun/seckill/dao/PromotionMapper.java,7\f\7f71e902a62316a5012a2b66f1b5b5173dc2540e
-^
-.src/main/resources/mappers/PromotionMapper.xml,d\2\d2f16a039e86a348644c1bba9df582b980b5003a
 Z
 *target/classes/mappers/PromotionMapper.xml,8\8\885ee5298c60f9e2d95d9960141e57d35f7dfc44
 h
