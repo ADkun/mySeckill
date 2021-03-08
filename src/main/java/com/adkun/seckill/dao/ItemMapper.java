@@ -46,4 +46,20 @@ public interface ItemMapper {
      * @mbg.generated Sun Mar 07 21:18:33 CST 2021
      */
     int updateByPrimaryKey(Item record);
+
+    /**
+     * 增加销量
+     *
+     * @param id
+     * @param amount
+     * @return
+     */
+    int increaseSales(Integer id, Integer amount);
+
+    /**
+     * 查询正在秒杀的商品
+     *
+     * @return
+     */
+    List<Item> selectOnPromotion();
 }
