@@ -1,0 +1,13 @@
+
+u
+java:S1128	"SRemove this unused import 'com.sun.java.accessibility.util.TopLevelWindowListener'.(ÏœİÑşÿÿÿÿ8ßşáê€/
+h
+java:S1128"FRemove this unused import 'javax.print.attribute.standard.PageRanges'.(šæøıÿÿÿÿ8ó•àê€/
+V
+java:S2441[":Make "User" serializable or don't store it in the session.(ø®¯8š¯€ë€/
+W
+java:S1191	"5Use classes from the Java API instead of Sun classes.(ÏœİÑşÿÿÿÿ8ßşáê€/
+g
+java:S1854Y"ERemove this useless assignment to local variable "encryptedPassword".(œ§èŸøÿÿÿÿ8–¤éê€/
+X
+java:S1481Y"6Remove this unused "encryptedPassword" local variable.(œ§èŸøÿÿÿÿ8–¤éê€/
